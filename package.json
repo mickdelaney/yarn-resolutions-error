@@ -17,7 +17,16 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "resolutions": {
+    "react-native": "0.68.2",
+    "@types/react": "~17.0.39"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "dependencies": {
+    "@xstate/react": "^3.0.0",
     "expo": "^44.0.0",
     "expo-status-bar": "~1.2.0",
     "native-base": "3.4.0",
